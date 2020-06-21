@@ -23,7 +23,7 @@
         <activity
             android:name=".Transactions"
             android:label="Transactions" />
-        <activity android:name=".report" />
+        <activity android:name=".Report" />
     </application>
 
 </manifest>

@@ -124,7 +124,7 @@ public class Transactions extends AppCompatActivity {
                 }
                 // when forward action button is clicked a bar chart is displayed whose values are calculated here
                 if (smsList1.size() > 0) {
-                    Intent i = new Intent(Transactions.this, report.class);
+                    Intent i = new Intent(Transactions.this, Report.class);
                     Bundle b = new Bundle();
                     b.putSerializable("SMS", (Serializable) smsList1);
                     // color is sent to the report activity depending on click of bank or cash card

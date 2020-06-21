@@ -29,7 +29,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class report extends AppCompatActivity {
+public class Report extends AppCompatActivity {
 
     GraphView graph;
     RecyclerView recyclerView;
